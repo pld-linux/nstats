@@ -9,6 +9,8 @@ Source0:	http://trash.net/~reeler/nstats/files/%{name}-%{version}.tar.gz
 # Source0-md5:	92e737781d918ae68fd27b5fa16d5dec
 URL:		http://reeler.org/nstats/
 Conflicts:	bmon
+BuildRequires:	libpcap-devel
+BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
