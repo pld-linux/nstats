@@ -20,8 +20,8 @@ options usage.
 %description -l pl
 nstats pokazuje statystyki ruchu w sieciach ethernetowych. Obejmuje to
 ró¿norakie awarie protoko³u na kilku warstwach, zliczanie pakietów i
-bajtów per protokó³, ¶redni rozmiar pakietu per protokó³, statystyki TOS
-oraz u¿ycie opcji TCP.
+bajtów per protokó³, ¶redni rozmiar pakietu per protokó³, statystyki
+TOS oraz u¿ycie opcji TCP.
 
 %prep
 %setup -q
@@ -29,10 +29,11 @@ oraz u¿ycie opcji TCP.
 %build
 %configure
 %{__make} \
-	CFLAGS="-I/usr/include/ncurses"
+	CFLAGS="%{rpmcflags} -Wall -I/usr/include/ncurses"
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
