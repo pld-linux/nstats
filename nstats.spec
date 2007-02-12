@@ -1,5 +1,5 @@
 Summary:	A traffic Analyser
-Summary(pl):	Analizator ruchu w sieci
+Summary(pl.UTF-8):   Analizator ruchu w sieci
 Name:		nstats
 Version:	0.4
 Release:	0.1
@@ -19,11 +19,11 @@ protocol breakdown on several layers, counting packets and bytes per
 protocol, average packet size per protocol, TOS statistics, and TCP
 options usage.
 
-%description -l pl
+%description -l pl.UTF-8
 nstats pokazuje statystyki ruchu w sieciach ethernetowych. Obejmuje to
-r罂norakie awarie protoko硊 na kilku warstwach, zliczanie pakiet體 i
-bajt體 per protok蟪, 秗edni rozmiar pakietu per protok蟪, statystyki
-TOS oraz u縴cie opcji TCP.
+r贸偶norakie awarie protoko艂u na kilku warstwach, zliczanie pakiet贸w i
+bajt贸w per protok贸艂, 艣redni rozmiar pakietu per protok贸艂, statystyki
+TOS oraz u偶ycie opcji TCP.
 
 %prep
 %setup -q
