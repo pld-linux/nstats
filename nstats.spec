@@ -1,5 +1,5 @@
 Summary:	A traffic Analyser
-Summary(pl.UTF-8):   Analizator ruchu w sieci
+Summary(pl.UTF-8):	Analizator ruchu w sieci
 Name:		nstats
 Version:	0.4
 Release:	0.1
